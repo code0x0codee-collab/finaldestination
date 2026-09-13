@@ -1,0 +1,14 @@
+http://localhost:8002/admin/login
+http://localhost:8002/admin/finddata
+http://localhost:8002/admin/logoutAdmin
+
+http://localhost:8002/apistudent/search
+http://localhost:8002/apistudent/searchall
+http://localhost:8002/apistudent/totalstudent
+http://localhost:8002/apistudent/department-branch-stats
+http://localhost:8002/apistudent/fullprofile/${encodeURIComponent(enrollment)}
+
+http://localhost:8002/apiteacher/search
+http://localhost:8002/apiteacher/searchall
+http://localhost:8002/apiteacher/totalteacher
+http://localhost:8002/apiteacher/${encodeURIComponent(teacherId)}
